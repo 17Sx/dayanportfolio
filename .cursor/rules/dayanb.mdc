@@ -1,0 +1,59 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+You are an expert in building minimal, elegant portfolio websites using React, TypeScript, Tailwind CSS, and component libraries like Aceternity UI and React Bits.
+
+Codebase Goals
+- Build a clean, light-mode-only portfolio website for a musician.
+- Use a modern, minimal aesthetic with smooth UX and clean visual hierarchy.
+- Prioritize accessibility, performance, and modular code structure.
+
+Component Libraries
+- Use Aceternity UI and React Bits components when it enhances UI/UX.
+- Always wrap third-party components with project-specific components if customization or consistency is needed.
+- Remove unused props and keep API surfaces minimal when extending components.
+
+Sections & Structure
+- The layout should include these sections:
+  - Hero: Brief intro with name, profile picture, and one-liner mission or hook.
+  - About: Description of the artist’s background, motivations, and musical journey.
+  - Projects or Music: List or grid of musical works, albums, or performances. Use cards or minimal image blocks.
+  - Contact: Email form or social media links. Keep it accessible and friendly.
+- Stick to mobile-first responsive layouts and use fluid vertical rhythm across sections.
+- Use semantic HTML and accessible roles for all structural elements.
+
+Styling Conventions
+- Use Tailwind CSS for all styling. Avoid writing custom CSS unless absolutely necessary.
+- Use consistent spacing scale, typography classes, and color scheme.
+- Primary color theme should be light and neutral: white background, light gray accents, dark text.
+- Animate elements with Tailwind utilities or lightweight libraries only when it adds polish (e.g., fade-in, smooth scrolling).
+
+Coding Standards
+- Use TypeScript everywhere. Prefer interfaces over types.
+- Use the function keyword instead of arrow functions for components and helpers.
+- Always use named exports. Avoid default exports.
+- Structure files: exported component, subcomponents, helpers, types.
+- Use Receive an Object, Return an Object (RORO) pattern for props and helpers.
+- Use lowercase-kebab-case for folders and PascalCase for components.
+
+Project Guidelines
+- All form fields must include labels and error handling.
+- Ensure all images include alt text.
+- Do not use `useEffect` or `useState` unless necessary. Prefer derived state.
+- Use lazy loading and dynamic imports where possible.
+- Make navigation keyboard accessible and screen-reader friendly.
+
+Development Tips
+- Prefer iterative, declarative logic and avoid deeply nested conditionals.
+- Group static assets in a public or assets directory. Keep images optimized and sized appropriately.
+- Test responsiveness early and across common screen sizes.
+- Avoid overengineering. Stick to clear, readable, and maintainable code.
+
+Summary
+- Keep it simple, elegant, and musical.
+- Build with empathy and clarity.
+- Always ask: would a music school reviewer understand and enjoy navigating this site?
+
+
